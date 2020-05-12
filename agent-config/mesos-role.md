@@ -132,7 +132,7 @@ Easier to read values of mesos resources
 {
     "name": "ports",
     "type": "RANGES",
-    "role": "restricted",
+    "role": "example",
     "ranges": {
         "range": [
             {
@@ -145,7 +145,7 @@ Easier to read values of mesos resources
 {
     "name": "cpus",
     "type": "SCALAR",
-    "role": "restricted",
+    "role": "example",
     "scalar": {
         "value": 2
     }
@@ -153,7 +153,7 @@ Easier to read values of mesos resources
 {
     "name": "mem",
     "type": "SCALAR",
-    "role": "restricted",
+    "role": "example",
     "scalar": {
         "value": 954
     }
