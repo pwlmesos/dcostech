@@ -1,0 +1,85 @@
+{
+    "name": "ports",
+    "type": "RANGES",
+    "ranges": {
+        "range": [
+            {
+                "begin": 1025,
+                "end": 2180
+            },
+            {
+                "begin": 2182,
+                "end": 3887
+            },
+            {
+                "begin": 3889,
+                "end": 5049
+            },
+            {
+                "begin": 5052,
+                "end": 8079
+            },
+            {
+                "begin": 8082,
+                "end": 8180
+            },
+            {
+                "begin": 8190,
+                "end": 32000
+            }
+        ]
+    }
+},
+{
+    "name": "disk",
+    "role": "*",
+    "scalar": {
+        "value": 118724
+    },
+    "type": "SCALAR"
+},
+{
+    "name": "cpus",
+    "type": "SCALAR",
+    "role": "*",
+    "scalar": {
+        "value": 2
+    }
+},
+{
+    "name": "mem",
+    "type": "SCALAR",
+    "role": "*",
+    "scalar": {
+        "value": 954
+    }
+},
+{
+    "name": "ports",
+    "type": "RANGES",
+    "role": "restricted",
+    "ranges": {
+        "range": [
+            {
+                "begin": 8185,
+                "end": 8189
+            }
+        ]
+    }
+},
+{
+    "name": "cpus",
+    "type": "SCALAR",
+    "role": "restricted",
+    "scalar": {
+        "value": 2
+    }
+},
+{
+    "name": "mem",
+    "type": "SCALAR",
+    "role": "restricted",
+    "scalar": {
+        "value": 954
+    }
+},
